@@ -18,20 +18,23 @@ Appleの公式チュートリアルをコード化したもの：
 
 ### 02_ARKitPlacingContent
 
-Appleの公式チュートリアルをコード化 + 検出した平面を可視化：
-
-[Placing content on detected planes | Apple Developer Documentation](https://developer-apple-com.translate.goog/documentation/visionos/placing-content-on-detected-planes?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=ja&_x_tr_pto=tc&_x_tr_hist=true)
+**Visualization of the planes** detected with `PlaneDetectionProvider`.
 
 解説記事（日本語）：
 
 https://zenn.dev/shu223/articles/visionos_planedetection
 
+![](https://storage.googleapis.com/zenn-user-upload/deployed-images/3298443097ea4fe8db13be15.gif?sha=b626216787695f05c77bd36cbfbfbdb0e72a1ee6)
+*From "[Placing content on detected planes](https://developer-apple-com.translate.goog/documentation/visionos/placing-content-on-detected-planes)".  (This is not an actual screen capture of this sample..)*
+
 
 ### 03_ARKitSceneReconstruction
 
-Appleの公式チュートリアルをコード化 + 検出したシーンのメッシュを可視化：
+**Visualization of the mesh of the scene** detected with `SceneReconstructionProvider`.
 
-[Incorporating real-world surroundings in an immersive experience | Apple Developer Documentation](https://developer-apple-com.translate.goog/documentation/visionos/incorporating-real-world-surroundings-in-an-immersive-experience?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=ja&_x_tr_pto=tc&_x_tr_hist=true)
+解説記事（日本語）：
+
+https://zenn.dev/shu223/articles/visionos_scenemesh
 
 ## Related Repositories
 
@@ -41,4 +44,5 @@ https://github.com/shu223/iOS-Depth-Sampler
 
 
 > [!TIP]
-> 本リポジトリには継続してサンプルを追加していく予定です。サンプルがある程度揃い、実機でのスクリーンショットも撮影可能になったら、あらためてvisionOS-Samplerとして正式リリースする予定です。気になる方はぜひstar & watchして更新をお待ちください。
+>
+> This repository will be continuously updated with new samples. When it has a certain number of samples and Apple Vision Pro is released (it means this repo can have screenshots of the actual devices), I plan to officially release it as "visionOS-Sampler". If you're interested, please star & watch this repository for updates.
