@@ -14,9 +14,9 @@
 
 ### 01_ARKitDataAccess
 
-Appleの公式チュートリアルをコード化したもの：
+Implementation as an application based on Apple's tutorial code:
 
-[Setting up access to ARKit data | Apple Developer Documentation](https://developer-apple-com.translate.goog/documentation/visionos/setting-up-access-to-arkit-data?_x_tr_sl=en&_x_tr_tl=ja&_x_tr_hl=ja&_x_tr_pto=tc&_x_tr_hist=true)
+[Setting up access to ARKit data | Apple Developer Documentation](https://developer-apple-com.translate.goog/documentation/visionos/setting-up-access-to-arkit-data)
 
 
 
@@ -24,22 +24,17 @@ Appleの公式チュートリアルをコード化したもの：
 
 **Visualization of the planes** detected with `PlaneDetectionProvider`.
 
-解説記事（日本語）：
-
-https://zenn.dev/shu223/articles/visionos_planedetection
-
 ![](https://storage.googleapis.com/zenn-user-upload/deployed-images/3298443097ea4fe8db13be15.gif?sha=b626216787695f05c77bd36cbfbfbdb0e72a1ee6)
 *From "[Placing content on detected planes](https://developer-apple-com.translate.goog/documentation/visionos/placing-content-on-detected-planes)".  (This is not an actual screen capture of this sample.)*
+
+Blog (Japanese): [[visionOS] ARKitで検出した平面を可視化する](https://zenn.dev/shu223/articles/visionos_planedetection)
 
 
 ### 03_ARKitSceneReconstruction
 
 **Visualization of the mesh of the scene** detected with `SceneReconstructionProvider`.
 
-解説記事（日本語）：
-
-https://zenn.dev/shu223/articles/visionos_scenemesh
-
+Blog (Japanese):  [[visionOS] ARKitで検出したシーンのメッシュを可視化する](https://zenn.dev/shu223/articles/visionos_scenemesh)
 
 
 
