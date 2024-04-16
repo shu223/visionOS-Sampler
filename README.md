@@ -6,8 +6,8 @@
 
 ## Requiments
 
-- visionOS 1.0 beta
-- Xcode 15.2 beta
+- visionOS 1.0+
+- Xcode 15.2+
 - Apple Vision Pro
 
 ## Contents
@@ -29,7 +29,6 @@ Implementation as an application based on Apple's tutorial code:
 
 Blog (Japanese): [[visionOS] ARKitで検出した平面を可視化する](https://zenn.dev/shu223/articles/visionos_planedetection)
 
-
 ### 03_ARKitSceneReconstruction
 
 **Visualization of the mesh of the scene** detected with `SceneReconstructionProvider`.
@@ -37,4 +36,10 @@ Blog (Japanese): [[visionOS] ARKitで検出した平面を可視化する](https
 Blog (Japanese):  [[visionOS] ARKitで検出したシーンのメッシュを可視化する](https://zenn.dev/shu223/articles/visionos_scenemesh)
 
 
+
+### 04_ARKitHandTracking
+
+**Visualization of the joints in hands** detected with `HandTrackingProvider`.
+
+![](https://res.cloudinary.com/zenn/image/fetch/s--UbavivFk--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/4219e1557601d5812341448e.png%3Fsha%3D3eb90990d08ada824a7a7226bfd68f2caceaa293)
 
