@@ -1,8 +1,7 @@
 //
 //  ARKitModel.swift
-//  ARKitPlacingContent
 //
-//  Created by Shuichi Tsutsumi on 2023/10/04.
+//  Created by Shuichi Tsutsumi on 2024/04/16.
 //
 
 import RealityKit

@@ -1,8 +1,7 @@
 //
 //  ImmersiveView.swift
-//  ARKitPlacingContent
 //
-//  Created by Shuichi Tsutsumi on 2023/10/04.
+//  Created by Shuichi Tsutsumi on 2024/04/16.
 //
 
 import SwiftUI
@@ -15,7 +14,6 @@ struct ImmersiveView: View {
         RealityView { content in
             // Add the initial RealityKit content
             content.add(model.rootEntity)
-
         }
         .task {
             await model.run()

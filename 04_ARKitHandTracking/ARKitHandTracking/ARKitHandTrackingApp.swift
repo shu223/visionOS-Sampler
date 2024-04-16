@@ -1,14 +1,14 @@
 //
-//  ARKitPlacingContentApp.swift
-//  ARKitPlacingContent
+//  ARKitHandTrackingApp.swift
+//  ARKitHandTrackingApp
 //
-//  Created by Shuichi Tsutsumi on 2023/10/04.
+//  Created by Shuichi Tsutsumi on 2024/04/16.
 //
 
 import SwiftUI
 
 @main
-struct ARKitPlacingContentApp: App {
+struct ARKitHandTrackingApp: App {
     @State var immersionState: ImmersionStyle = .mixed
     var body: some Scene {
         WindowGroup {

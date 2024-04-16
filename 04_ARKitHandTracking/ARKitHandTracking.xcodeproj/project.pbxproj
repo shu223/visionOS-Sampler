@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8A91001C2ACD663200024E24 /* ARKitModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91001B2ACD663200024E24 /* ARKitModel.swift */; };
 		8A91FF002ACD0D2800024E24 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 8A91FEFF2ACD0D2800024E24 /* RealityKitContent */; };
-		8A91FF022ACD0D2800024E24 /* ARKitSceneReconstructionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91FF012ACD0D2800024E24 /* ARKitSceneReconstructionApp.swift */; };
+		8A91FF022ACD0D2800024E24 /* ARKitHandTrackingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91FF012ACD0D2800024E24 /* ARKitHandTrackingApp.swift */; };
 		8A91FF042ACD0D2800024E24 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91FF032ACD0D2800024E24 /* ContentView.swift */; };
 		8A91FF062ACD0D2800024E24 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A91FF052ACD0D2800024E24 /* ImmersiveView.swift */; };
 		8A91FF082ACD0D2900024E24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A91FF072ACD0D2900024E24 /* Assets.xcassets */; };
@@ -20,7 +20,7 @@
 		8A91001B2ACD663200024E24 /* ARKitModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitModel.swift; sourceTree = "<group>"; };
 		8A91FEFA2ACD0D2800024E24 /* ARKitHandTracking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARKitHandTracking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A91FEFE2ACD0D2800024E24 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
-		8A91FF012ACD0D2800024E24 /* ARKitSceneReconstructionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitSceneReconstructionApp.swift; sourceTree = "<group>"; };
+		8A91FF012ACD0D2800024E24 /* ARKitHandTrackingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARKitHandTrackingApp.swift; sourceTree = "<group>"; };
 		8A91FF032ACD0D2800024E24 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8A91FF052ACD0D2800024E24 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		8A91FF072ACD0D2900024E24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -62,7 +62,7 @@
 			children = (
 				8A91FF0C2ACD0D2900024E24 /* Info.plist */,
 				8A91FF072ACD0D2900024E24 /* Assets.xcassets */,
-				8A91FF012ACD0D2800024E24 /* ARKitSceneReconstructionApp.swift */,
+				8A91FF012ACD0D2800024E24 /* ARKitHandTrackingApp.swift */,
 				8A91FF032ACD0D2800024E24 /* ContentView.swift */,
 				8A91FF052ACD0D2800024E24 /* ImmersiveView.swift */,
 				8A91001B2ACD663200024E24 /* ARKitModel.swift */,
@@ -161,7 +161,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A91FF042ACD0D2800024E24 /* ContentView.swift in Sources */,
-				8A91FF022ACD0D2800024E24 /* ARKitSceneReconstructionApp.swift in Sources */,
+				8A91FF022ACD0D2800024E24 /* ARKitHandTrackingApp.swift in Sources */,
 				8A91FF062ACD0D2800024E24 /* ImmersiveView.swift in Sources */,
 				8A91001C2ACD663200024E24 /* ARKitModel.swift in Sources */,
 			);
