@@ -1,6 +1,6 @@
 //
-//  ARKitPlacingContentApp.swift
-//  ARKitPlacingContent
+//  ARKitSceneReconstructionApp.swift
+//  ARKitSceneReconstruction
 //
 //  Created by Shuichi Tsutsumi on 2023/10/04.
 //
@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct ARKitPlacingContentApp: App {
+struct ARKitSceneReconstructionApp: App {
     @State var immersionState: ImmersionStyle = .mixed
     var body: some Scene {
         WindowGroup {

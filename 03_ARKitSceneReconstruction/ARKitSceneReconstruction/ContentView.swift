@@ -1,6 +1,6 @@
 //
 //  ContentView.swift
-//  ARKitPlacingContent
+//  ARKitSceneReconstruction
 //
 //  Created by Shuichi Tsutsumi on 2023/10/04.
 //

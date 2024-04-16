@@ -1,6 +1,6 @@
 //
 //  ARKitModel.swift
-//  ARKitPlacingContent
+//  ARKitSceneReconstruction
 //
 //  Created by Shuichi Tsutsumi on 2023/10/04.
 //
@@ -17,8 +17,8 @@ final class ARKitModel: ObservableObject {
     private var meshEntities = [UUID: ModelEntity]()
 
     func run() async {
-        guard PlaneDetectionProvider.isSupported else {
-            print("PlaneDetectionProvider is NOT supported.")
+        guard SceneReconstructionProvider.isSupported else {
+            print("SceneReconstructionProvider is NOT supported.")
             return
         }
 
